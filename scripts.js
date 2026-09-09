@@ -1,3 +1,4 @@
+// script.js
 function switchTab(evt, tabId) {
     const sections = document.querySelectorAll('.section');
     sections.forEach(sec => sec.classList.remove('active'));
