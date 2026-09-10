@@ -68,6 +68,7 @@
     display: none;
     animation: fadeIn 0.3s ease-in-out;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .study-pane.active {
@@ -94,6 +95,7 @@
     width: 100%;
     max-width: none;
     text-align: left;
+    box-sizing: border-box;
 }
 
 .study-grid-top {
@@ -102,6 +104,7 @@
     gap: 30px;
     width: 100%;
     margin-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .study-column {
@@ -176,6 +179,7 @@
     padding-left: 20px;
     color: var(--text-secondary);
     margin: 0;
+    box-sizing: border-box;
 }
 
 .competencias-grid li {
@@ -183,7 +187,6 @@
     line-height: 1.6;
 }
 
-/* Estilos para el diagrama de flujo de proyectos reales */
 .project-flow {
     display: flex;
     flex-direction: column;
@@ -213,7 +216,6 @@
     line-height: 1;
 }
 
-/* Tarjetas de proyectos en DAW y DAM */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -227,6 +229,7 @@
     padding: 20px;
     border-radius: 10px;
     transition: all 0.2s ease;
+    box-sizing: border-box;
 }
 
 .project-card h4 {

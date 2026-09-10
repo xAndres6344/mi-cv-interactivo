@@ -1,4 +1,10 @@
 /* css/global.css */
+
+html, body {
+    overflow-y: scroll;
+}
+
+
 :root {
     --bg-main: #F8FAFC;
     --bg-card: #FFFFFF;
