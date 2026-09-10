@@ -93,12 +93,10 @@ body {
 }
 
 .section {
-    display: none;
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
     padding: 30px;
     border-radius: 12px;
-    animation: fadeIn 0.25s ease-in-out;
 }
 
 .section.active {
