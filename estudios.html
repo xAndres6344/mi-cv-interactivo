@@ -25,13 +25,282 @@
     </header>
 
     <main class="main-content">
-        <section class="section">
-            <h2>🎓 Estudios</h2>
-            <ul>
-                <li><strong>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</strong> - Centro Educativo (2022 - 2024)</li>
-                <li><strong>Curso Avanzado de JavaScript y React</strong> - Plataforma Online (2024)</li>
-            </ul>
-        </section>
+        <div class="studies-container">
+            <div class="study-tabs">
+                <button class="study-tab active" data-target="smr">Grado Medio (SMR)</button>
+                <button class="study-tab" data-target="daw">Desarrollo Web (DAW)</button>
+                <button class="study-tab" data-target="dam">Multiplataforma (DAM)</button>
+            </div>
+
+            <div class="study-content">
+                <!-- SMR -->
+                <div id="smr" class="study-pane active">
+                    <h2>💻 Sistemas Microinformáticos y Redes (Grado Medio)</h2>
+                    <p class="study-desc">Formación orientada a la instalación, configuración, mantenimiento y administración de equipos informáticos y redes. Durante estos estudios adquirí una base sólida en sistemas operativos, hardware, redes y soporte técnico, desarrollando también conocimientos relacionados con la seguridad informática y los servicios en red.</p>
+                    
+                    <div class="study-grid-top">
+                        <div class="study-column">
+                            <h3>📚 Asignaturas principales</h3>
+                            <ul>
+                                <li><strong>Hardware y mantenimiento:</strong> Montaje, desmontaje y sustitución de componentes.</li>
+                                <li><strong>Sistemas operativos:</strong> Administración de entornos Windows y Linux.</li>
+                                <li><strong>Redes:</strong> Diseño, configuración de redes locales (LAN) y dispositivos.</li>
+                                <li><strong>Seguridad y servicios:</strong> Copias de seguridad y administración básica.</li>
+                                <li><strong>Aplicaciones y soporte:</strong> Soporte técnico y resolución de incidencias.</li>
+                            </ul>
+                        </div>
+                        <div class="study-column">
+                            <h3>🛠️ Tecnologías y competencias</h3>
+                            <ul>
+                                <li>Windows y Linux (Administración)</li>
+                                <li>Hardware, ensamblaje y periféricos</li>
+                                <li>Redes LAN, routers y switches</li>
+                                <li>Direccionamiento IP y conectividad</li>
+                                <li>Herramientas de diagnóstico y soporte</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>🛠️ Competencias adquiridas</h3>
+                        <ul class="competencias-grid">
+                            <li>Capacidad para diagnosticar y solucionar incidencias informáticas.</li>
+                            <li>Montaje y mantenimiento de equipos.</li>
+                            <li>Administración básica de sistemas Windows y Linux.</li>
+                            <li>Configuración y mantenimiento de redes locales.</li>
+                            <li>Instalación y configuración de software.</li>
+                            <li>Gestión de usuarios, permisos y recursos.</li>
+                            <li>Aplicación de buenas prácticas de seguridad.</li>
+                            <li>Realización de copias de seguridad.</li>
+                            <li>Trabajo siguiendo procedimientos técnicos.</li>
+                            <li>Capacidad para documentar y resolver problemas.</li>
+                        </ul>
+                    </div>
+
+                    <div class="study-evolution">
+                        <h3>🎯 Evolución hacia el desarrollo de software</h3>
+                        <p>SMR supuso mi primer contacto con el ámbito tecnológico y me proporcionó una base sólida en hardware, sistemas y redes. Estos conocimientos fueron posteriormente complementados con mi formación en Desarrollo de Aplicaciones Web y Desarrollo de Aplicaciones Multiplataforma, orientando progresivamente mi perfil hacia el desarrollo de software.</p>
+                        <div class="evolution-path">
+                            <span class="path-step highlight-main">SMR</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step soft">DAW</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step soft">DAM</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step highlight">DESARROLLADOR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DAW -->
+                <div id="daw" class="study-pane">
+                    <h2>🌐 Desarrollo de Aplicaciones Web (DAW)</h2>
+                    <p class="study-desc">Grado Superior especializado en el desarrollo integral de aplicaciones y sitios web, abarcando tanto el desarrollo frontend como backend. Durante esta formación profundicé en programación, diseño de interfaces, bases de datos, desarrollo de servicios web y despliegue de aplicaciones, adquiriendo una visión completa del ciclo de desarrollo de una aplicación web.</p>
+                    
+                    <div class="study-grid-top">
+                        <div class="study-column">
+                            <h3>📚 Asignaturas y áreas principales</h3>
+                            <ul>
+                                <li><strong>Desarrollo web en entorno cliente:</strong> Creación de interfaces dinámicas utilizando HTML, CSS y JavaScript.</li>
+                                <li><strong>Desarrollo web en entorno servidor:</strong> Programación de la lógica de negocio y gestión de aplicaciones backend.</li>
+                                <li><strong>Bases de datos:</strong> Diseño, creación, consultas y gestión de bases de datos relacionales.</li>
+                                <li><strong>Despliegue de aplicaciones web:</strong> Configuración de servidores y publicación de aplicaciones en diferentes entornos.</li>
+                                <li><strong>Diseño de interfaces web:</strong> Creación de interfaces funcionales, responsive y orientadas a la experiencia de usuario.</li>
+                                <li><strong>Programación:</strong> Desarrollo de aplicaciones utilizando diferentes lenguajes y metodologías.</li>
+                                <li><strong>Servicios web:</strong> Desarrollo e integración de APIs y comunicación entre diferentes aplicaciones y servicios.</li>
+                            </ul>
+                        </div>
+                        <div class="study-column">
+                            <h3>🛠️ Tecnologías y herramientas</h3>
+                            <ul>
+                                <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+) y Angular.</li>
+                                <li><strong>Backend:</strong> PHP, Node.js y Express.</li>
+                                <li><strong>Lenguajes:</strong> Java,JavaScript, PHP y Python.</li>
+                                <li><strong>Bases de datos:</strong> MySQL, PostgreSQL y MongoDB.</li>
+                                <li><strong>APIs:</strong> Diseño y consumo de APIs REST.</li>
+                                <li><strong>Control de versiones:</strong> Git y GitHub.</li>
+                                <li><strong>Formatos de datos:</strong> JSON y XML.</li>
+                                <li><strong>Herramientas:</strong> Visual Studio Code, Figma y herramientas de desarrollo web.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>🧠 Competencias adquiridas</h3>
+                        <ul class="competencias-grid">
+                            <li>Desarrollo completo de aplicaciones web frontend y backend.</li>
+                            <li>Diseño y consumo de APIs REST.</li>
+                            <li>Creación de interfaces web responsive e intuitivas.</li>
+                            <li>Comunicación entre frontend, backend y bases de datos.</li>
+                            <li>Programación y estructuración de aplicaciones web.</li>
+                            <li>Control de versiones mediante Git y GitHub.</li>
+                            <li>Implementación de lógica del lado servidor.</li>
+                            <li>Pruebas, depuración y resolución de errores.</li>
+                            <li>Diseño y gestión de bases de datos.</li>
+                            <li>Adaptación de interfaces a diferentes dispositivos.</li>
+                            <li>Integración de diferentes tecnologías dentro de una misma aplicación.</li>
+                            <li>Capacidad para analizar problemas y desarrollar soluciones.</li>
+                        </ul>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>🚀 Aplicación de conocimientos en proyectos</h3>
+                        <p class="study-desc" style="margin-bottom: 20px; font-size: 1.05rem;">Durante mi formación en DAW pude aplicar los conocimientos adquiridos mediante diferentes proyectos de desarrollo web, trabajando con interfaces de usuario, lógica de aplicación, bases de datos y servicios web. Estos proyectos me permitieron comprender cómo se estructura una aplicación completa y cómo se conectan sus diferentes componentes, desde la interfaz con la que interactúa el usuario hasta la gestión de los datos y los servicios backend.</p>
+                        
+                        <div class="project-flow">
+                            <div class="flow-step">💻 Interfaz web</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">⚙️ Lógica de aplicación</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">🌐 API / Backend</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">🗄️ Base de datos</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">☁️ Servicios externos</div>
+                        </div>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>💻 Proyectos desarrollados durante DAW</h3>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h4>🌐 Aplicación web</h4>
+                                <p>Desarrollo de aplicaciones web trabajando tanto la parte visual como la lógica de aplicación y la gestión de información.</p>
+                            </div>
+                            <div class="project-card">
+                                <h4>🗄️ Aplicaciones con bases de datos</h4>
+                                <p>Creación de aplicaciones conectadas a bases de datos para almacenar, consultar y gestionar información de forma estructurada.</p>
+                            </div>
+                            <div class="project-card">
+                                <h4>🔗 Integración de servicios</h4>
+                                <p>Desarrollo y consumo de servicios web y APIs para conectar diferentes componentes y facilitar el intercambio de información entre aplicaciones.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="study-evolution">
+                        <h3>🎯 Consolidación del desarrollo web</h3>
+                        <p>DAW supuso mi entrada en profundidad al desarrollo de software, permitiéndome consolidar conocimientos de programación, bases de datos y desarrollo de aplicaciones web. Esta formación me proporcionó una base sólida tanto en frontend como en backend y me permitió continuar evolucionando posteriormente hacia el desarrollo de aplicaciones multiplataforma con DAM.</p>
+                        <div class="evolution-path">
+                            <span class="path-step soft">SMR</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step highlight-main">DAW</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step soft">DAM</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step highlight">DESARROLLADOR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DAM -->
+                <div id="dam" class="study-pane">
+                    <h2>📱 Desarrollo de Aplicaciones Multiplataforma (DAM)</h2>
+                    <p class="study-desc">Formación de Grado Superior orientada al diseño, desarrollo y mantenimiento de aplicaciones multiplataforma. Durante estos estudios profundicé en programación orientada a objetos, desarrollo de aplicaciones móviles, acceso a bases de datos, servicios backend, APIs y herramientas de desarrollo, adquiriendo una visión global del ciclo de desarrollo de software.</p>
+                    
+                    <div class="study-grid-top">
+                        <div class="study-column">
+                            <h3>📚 Asignaturas y áreas principales</h3>
+                            <ul>
+                                <li><strong>Programación:</strong> Desarrollo de aplicaciones mediante programación orientada a objetos, estructuras de datos y resolución de problemas.</li>
+                                <li><strong>Bases de datos:</strong> Diseño, creación y gestión de bases de datos relacionales y NoSQL.</li>
+                                <li><strong>Acceso a datos:</strong> Persistencia de información, conexión con bases de datos, ficheros y diferentes fuentes.</li>
+                                <li><strong>Desarrollo de interfaces:</strong> Diseño y creación de interfaces gráficas para aplicaciones de escritorio y móviles.</li>
+                                <li><strong>Programación multimedia y dispositivos móviles:</strong> Desarrollo adaptado a dispositivos móviles y diferentes plataformas.</li>
+                                <li><strong>Servicios y procesos:</strong> Comunicación entre aplicaciones, servicios backend e integración de componentes.</li>
+                                <li><strong>Sistemas empresariales:</strong> Introducción a herramientas y soluciones orientadas a entornos corporativos.</li>
+                            </ul>
+                        </div>
+                        <div class="study-column">
+                            <h3>🛠️ Tecnologías y herramientas</h3>
+                            <ul>
+                                <li><strong>Lenguajes:</strong> Java, Kotlin, C#, Dart, JavaScript, PHP</li>
+                                <li><strong>Desarrollo móvil:</strong> Android Studio, Kotlin, Ionic, Flutter/FlutterFlow</li>
+                                <li><strong>Backend:</strong> Node.js, APIs REST</li>
+                                <li><strong>Bases de datos:</strong> PostgreSQL, MySQL, MongoDB, Firebase</li>
+                                <li><strong>Control de versiones:</strong> Git, GitHub</li>
+                                <li><strong>Formatos:</strong> JSON, XML</li>
+                                <li><strong>Entornos:</strong> Android Studio, IntelliJ IDEA, Visual Studio Code</li>
+                                <li><strong>Herramientas:</strong> Figma, ClickUp, Heroku, Google Cloud</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>🧠 Competencias adquiridas</h3>
+                        <ul class="competencias-grid">
+                            <li>Diseño y desarrollo de aplicaciones multiplataforma.</li>
+                            <li>Programación orientada a objetos.</li>
+                            <li>Desarrollo de aplicaciones móviles nativas.</li>
+                            <li>Diseño y consumo de APIs REST.</li>
+                            <li>Integración entre aplicaciones y servicios backend.</li>
+                            <li>Diseño, gestión y optimización de bases de datos.</li>
+                            <li>Trabajo con bases de datos relacionales y NoSQL.</li>
+                            <li>Desarrollo de interfaces gráficas para diferentes dispositivos.</li>
+                            <li>Control de versiones mediante Git y GitHub.</li>
+                            <li>Pruebas, depuración y resolución de errores.</li>
+                            <li>Aplicación de patrones y buenas prácticas de programación.</li>
+                            <li>Capacidad para analizar problemas y desarrollar soluciones software.</li>
+                        </ul>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>🚀 Aplicación de conocimientos en proyectos reales</h3>
+                        <p class="study-desc" style="margin-bottom: 20px; font-size: 1.05rem;">Durante mi formación en DAM pude aplicar los conocimientos adquiridos en diferentes proyectos de desarrollo, trabajando con aplicaciones móviles, bases de datos, servicios backend y APIs. Estos proyectos me permitieron comprender cómo se conectan las diferentes partes de una aplicación, desde la interfaz de usuario hasta la lógica de negocio, el almacenamiento de datos y los servicios externos.</p>
+                        
+                        <div class="project-flow">
+                            <div class="flow-step">📱 Aplicación móvil</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">⚙️ Lógica de negocio</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">🌐 API REST</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">🗄️ Base de datos</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">☁️ Servicios externos</div>
+                        </div>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>💻 Proyectos desarrollados durante DAM</h3>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h4>📱 Aplicación móvil Android</h4>
+                                <p>Desarrollo de una aplicación Android utilizando Kotlin, trabajando en el diseño de interfaces, gestión de usuarios, persistencia de datos y comunicación con servicios backend mediante APIs REST.</p>
+                            </div>
+                            <div class="project-card">
+                                <h4>🌐 API REST</h4>
+                                <p>Diseño y desarrollo de servicios backend con Node.js para gestionar datos, operaciones de la aplicación y comunicación entre el cliente móvil y la base de datos.</p>
+                            </div>
+                            <div class="project-card">
+                                <h4>🎮 Proyecto multiplataforma</h4>
+                                <p>Desarrollo de una aplicación completa integrando interfaz, lógica de negocio, gestión de datos, servicios externos y funcionalidades de interacción entre usuarios.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="study-full-card">
+                        <h3>🚀 Preparación para el entorno profesional</h3>
+                        <p class="study-desc" style="margin-bottom: 15px; font-size: 1.05rem;">La formación en DAM me permitió consolidar los conocimientos adquiridos previamente en sistemas y desarrollo web, aplicándolos al desarrollo de aplicaciones completas. Durante esta etapa trabajé con diferentes lenguajes, bases de datos, APIs y entornos de desarrollo, aprendiendo a abordar un proyecto desde su planificación y diseño hasta su implementación y puesta en funcionamiento.</p>
+                        <p class="study-desc" style="margin-bottom: 0; font-size: 1.05rem;">Además de los conocimientos técnicos, desarrollé una mayor capacidad para analizar problemas, buscar soluciones, trabajar de forma organizada y adaptarme a nuevas tecnologías y herramientas.</p>
+                    </div>
+
+                    <div class="study-evolution">
+                        <h3>🎯 Consolidación como desarrollador</h3>
+                        <p>DAM supuso la consolidación de mi perfil como desarrollador de software, permitiéndome pasar de los conocimientos adquiridos en sistemas y desarrollo web a la creación de aplicaciones completas. Durante esta etapa profundicé especialmente en programación, desarrollo móvil, bases de datos, APIs y arquitectura de aplicaciones, adquiriendo una visión más completa del proceso de desarrollo.</p>
+                        <div class="evolution-path">
+                            <span class="path-step soft">SMR</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step soft">DAW</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step highlight-main">DAM</span>
+                            <span class="path-arrow">→</span>
+                            <span class="path-step highlight">DESARROLLADOR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="js/global.js"></script>
